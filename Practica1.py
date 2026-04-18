@@ -52,6 +52,7 @@ class Salud:
         Peso: {self.__peso} kg
         Altura: {self.__altura} m
         Sexo: {self.__sexo}
+        IMC: {self.calcular_imc():.2f}
         """
 
     def calcular_imc(self):
@@ -67,3 +68,9 @@ class Salud:
             return "Sobrepeso"
         else:
             return "Obesidad"
+        
+
+persona1 = Salud("Valadez", 20, 72, 1.69, "Masculino")
+
+print("INFORMACIÓN INICIAL")
+print(persona1.info())
