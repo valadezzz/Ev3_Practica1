@@ -43,3 +43,8 @@ class Salud:
 
     def set_sexo(self, sexo):
         self.__sexo = sexo
+
+
+
+    def calcular_imc(self):
+        return self.__peso / (self.__altura ** 2)
