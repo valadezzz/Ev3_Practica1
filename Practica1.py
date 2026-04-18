@@ -53,6 +53,7 @@ class Salud:
         Altura: {self.__altura} m
         Sexo: {self.__sexo}
         IMC: {self.calcular_imc():.2f}
+        Clasificación: {self.clasificacion_imc()}
         """
 
     def calcular_imc(self):
@@ -80,3 +81,9 @@ print("Edad:", persona1.get_edad())
 
 persona1.set_peso(86)
 persona1.set_altura(1.76)
+
+print("\nINFORMACIÓN ACTUALIZADA")
+print(persona1.info())
+
+print("IMC:", persona1.calcular_imc())
+print("Clasificación:", persona1.clasificacion_imc())
