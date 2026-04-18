@@ -12,4 +12,11 @@ class Salud:
     def get_edad(self):
         return self.__edad
 
-    
+    def get_peso(self):
+        return self.__peso
+
+    def get_altura(self):
+        return self.__altura
+
+    def get_sexo(self):
+        return self.__sexo
