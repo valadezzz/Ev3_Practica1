@@ -74,3 +74,7 @@ persona1 = Salud("Valadez", 20, 72, 1.69, "Masculino")
 
 print("INFORMACIÓN INICIAL")
 print(persona1.info())
+
+print("Nombre:", persona1.get_nombre())
+print("Edad:", persona1.get_edad())
+
