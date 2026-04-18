@@ -57,3 +57,13 @@ class Salud:
     def calcular_imc(self):
         return self.__peso / (self.__altura ** 2)
     
+    def clasificacion_imc(self):
+        imc = self.calcular_imc()
+        if imc < 18.5:
+            return "Bajo peso"
+        elif imc < 25:
+            return "Normal"
+        elif imc < 30:
+            return "Sobrepeso"
+        else:
+            return "Obesidad"
