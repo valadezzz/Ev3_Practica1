@@ -29,7 +29,17 @@ class Salud:
     def set_edad(self, edad):
         self.__edad = edad
 
+    def set_peso(self, peso):
+        if peso > 0:
+            self.__peso = peso
+        else:
+            print("El peso no puede ser 0")
 
-    
+    def set_altura(self, altura):
+        if altura > 0:
+            self.__altura = altura
+        else:
+            print("La altura no puede ser 0")
+
     def set_sexo(self, sexo):
         self.__sexo = sexo
