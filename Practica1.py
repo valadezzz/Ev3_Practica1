@@ -45,6 +45,15 @@ class Salud:
         self.__sexo = sexo
 
 
+    def info(self):
+        return f"""
+        Nombre: {self.__nombre}
+        Edad: {self.__edad}
+        Peso: {self.__peso} kg
+        Altura: {self.__altura} m
+        Sexo: {self.__sexo}
+        """
 
     def calcular_imc(self):
         return self.__peso / (self.__altura ** 2)
+    
