@@ -20,3 +20,16 @@ class Salud:
 
     def get_sexo(self):
         return self.__sexo
+    
+
+
+    def set_nombre(self, nombre):
+        self.__nombre = nombre
+
+    def set_edad(self, edad):
+        self.__edad = edad
+
+
+    
+    def set_sexo(self, sexo):
+        self.__sexo = sexo
