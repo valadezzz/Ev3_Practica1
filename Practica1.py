@@ -78,3 +78,5 @@ print(persona1.info())
 print("Nombre:", persona1.get_nombre())
 print("Edad:", persona1.get_edad())
 
+persona1.set_peso(86)
+persona1.set_altura(1.76)
